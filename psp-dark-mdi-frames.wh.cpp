@@ -5,6 +5,7 @@
 // @version         1.0.0
 // @author          MrSmith
 // @github          https://github.com/MrSmith2017
+// @homepage        https://github.com/MrSmith2017/psp-dark-image-windows
 // @license         MIT
 // @include         Corel PaintShop Pro.exe
 // @compilerOptions -lgdi32 -luser32
