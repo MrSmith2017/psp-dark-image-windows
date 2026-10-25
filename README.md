@@ -2,7 +2,7 @@
 
 A [Windhawk](https://windhawk.net) mod that gives the image windows in Corel PaintShop Pro dark title bars and frames.
 
-![Before and after: light blue-gray image window frames versus dark ones](https://raw.githubusercontent.com/MrSmith2017/windhawk-mod-assets/main/psp-dark-image-windows.png)
+![Before and after: light blue-gray image window frames versus dark ones](psp-dark-image-windows.png)
 
 ## Why
 

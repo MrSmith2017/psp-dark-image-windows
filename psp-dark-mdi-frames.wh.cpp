@@ -15,7 +15,7 @@
 /*
 # PaintShop Pro Dark Image Windows
 
-![Before and after: light blue-gray image window frames versus dark ones](https://raw.githubusercontent.com/MrSmith2017/windhawk-mod-assets/main/psp-dark-image-windows.png)
+![Before and after: light blue-gray image window frames versus dark ones](https://raw.githubusercontent.com/MrSmith2017/psp-dark-image-windows/main/psp-dark-image-windows.png)
 
 Corel PaintShop Pro has a dark theme, but the image windows inside the
 workspace keep a light blue-gray frame that looks like Windows XP or 7. They
