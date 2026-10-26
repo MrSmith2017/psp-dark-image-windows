@@ -16,6 +16,7 @@ PaintShop Pro has a dark theme, but it is not really dark: the surfaces are a me
 - **Image windows:** the frames of the image windows (MDI child windows) are painted dark: title bar, border, icon, title text, minimize, maximize and close buttons with hover and pressed states, and minimized image windows. Maximized image windows are left to Windows.
 - **Start tiles (optional):** hides the eight learning tiles and the hint text in the middle of the empty workspace.
 - **Flash fix (optional):** when you switch between images, PaintShop Pro rebuilds the drop-down lists in the tool options bar. For a few frames their selection fields flash white; the fix paints that field dark instead.
+- **Tool options bar flicker (optional, experimental, off by default):** while PaintShop Pro refills the tool options bar, the bar is not redrawn for a short moment (at most 250 ms) and drawn once afterwards. This uses `LockWindowUpdate`, which can lock only one window on the whole desktop at a time, so you have to switch it on yourself.
 
 Everything is done by re-coloring while PaintShop Pro draws, so no theme files, program files or system settings are touched, and only PaintShop Pro is affected.
 
@@ -48,10 +49,11 @@ Colors are hex codes, for example `282828` or `#282828`. A value that cannot be 
 | Size of the button symbols | 10 px (at 100% scaling) |
 | Fix white flash in the tool options bar | on |
 | Color used instead of white | `3C3C3C` |
+| Reduce flicker of the tool options bar (experimental) | off |
 
 ## Compatibility
 
-Tested with PaintShop Pro 2022 on Windows 11 (build 26100). Other versions may work but have not been tested. Some parts of the interface are recognized by their size and color, so a different version may look different in places. If something looks wrong, disable the mod in Windhawk and restart PaintShop Pro: the original look comes back.
+Tested with PaintShop Pro 2022 on Windows 11 (build 26100). Other versions may work but have not been tested. Some parts of the interface are recognized by their size and color, so a different version may look different in places. Display scaling above 100% is not tested. The colors you work with (the swatches in the Material palette and in the color dialog, the content of your images) are shown unchanged. If something looks wrong, disable the mod in Windhawk and restart PaintShop Pro: the original look comes back.
 
 ## License
 
