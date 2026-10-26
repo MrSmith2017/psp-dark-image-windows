@@ -53,7 +53,7 @@ Colors are hex codes, for example `282828` or `#282828`. A value that cannot be 
 
 ## Compatibility
 
-Tested with PaintShop Pro 2022 on Windows 11 (build 26100). Other versions may work but have not been tested. Some parts of the interface are recognized by their size and color, so a different version may look different in places. Display scaling above 100% is not tested. The colors you work with (the swatches in the Material palette and in the color dialog, the content of your images) are shown unchanged. If something looks wrong, disable the mod in Windhawk and restart PaintShop Pro: the original look comes back.
+Tested with PaintShop Pro 2022 on Windows 11 (build 26100). Other versions may work but have not been tested. Some parts of the interface are recognized by their size and color, so a different version may look different in places. Tested at 100% and 120% display scaling. The swatches in the Material palette and in the color dialog show the exact color you chose, and the content of your images is never touched. Other places that draw your colors may show very dark grays slightly darker. If something looks wrong, disable the mod in Windhawk and restart PaintShop Pro: the original look comes back.
 
 ## License
 
