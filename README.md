@@ -2,7 +2,7 @@
 
 A [Windhawk](https://windhawk.net) mod that makes Corel PaintShop Pro really dark: darker interface, black title bar, your own accent color and dark image windows.
 
-![Before and after: PaintShop Pro with its original look versus the dark mode](psp-dark-image-windows.png)
+![Before and after: PaintShop Pro with its original look versus the dark mode](psp-dark-mode.png)
 
 ## Why
 
